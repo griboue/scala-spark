@@ -1,0 +1,40 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mEx1UserMiningSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should count the number of couple (user, tweets) *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:230)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex1UserMining$.tweetsByUser(Ex1UserMining.scala:47)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex1UserMiningSpec$$anonfun$1.apply$mcV$sp(Ex1UserMiningSpec.scala:11)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex1UserMiningSpec$$anonfun$1.apply(Ex1UserMiningSpec.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex1UserMiningSpec$$anonfun$1.apply(Ex1UserMiningSpec.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- tweetByUserNumber should count the number of tweets by user *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:230)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex1UserMining$.tweetByUserNumber(Ex1UserMining.scala:54)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex1UserMiningSpec$$anonfun$2.apply$mcV$sp(Ex1UserMiningSpec.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex1UserMiningSpec$$anonfun$2.apply(Ex1UserMiningSpec.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex1UserMiningSpec$$anonfun$2.apply(Ex1UserMiningSpec.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return the top ten twitterers *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:230)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex1UserMining$.topTenTwitterers(Ex1UserMining.scala:62)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex1UserMiningSpec$$anonfun$3.apply$mcV$sp(Ex1UserMiningSpec.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex1UserMiningSpec$$anonfun$3.apply(Ex1UserMiningSpec.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex1UserMiningSpec$$anonfun$3.apply(Ex1UserMiningSpec.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m

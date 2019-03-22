@@ -1,0 +1,28 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mEx0WordcountSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- number of data loaded[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- countWord should count the occurrences of each word *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:230)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex0Wordcount$.wordcount(Ex0Wordcount.scala:45)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex0WordcountSpec$$anonfun$2.apply$mcV$sp(Ex0WordcountSpec.scala:17)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex0WordcountSpec$$anonfun$2.apply(Ex0WordcountSpec.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex0WordcountSpec$$anonfun$2.apply(Ex0WordcountSpec.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- filterOnWordcount should keep the words which appear more than 4 times *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:230)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex0Wordcount$.filterOnWordcount(Ex0Wordcount.scala:52)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex0WordcountSpec$$anonfun$3.apply$mcV$sp(Ex0WordcountSpec.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex0WordcountSpec$$anonfun$3.apply(Ex0WordcountSpec.scala:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex0WordcountSpec$$anonfun$3.apply(Ex0WordcountSpec.scala:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m

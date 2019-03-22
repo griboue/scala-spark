@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/home/bruce/Documents/pro/prof/fonctional/lab/spark/batchTU/spark-lab-json/src/main/scala/com/tp/spark/core/Ex0WordcountDF.scala:3:8: object sql is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.{SparkConf, SparkContext, sql}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/bruce/Documents/pro/prof/fonctional/lab/spark/batchTU/spark-lab-json/src/main/scala/com/tp/spark/core/Ex0WordcountDF.scala:5:25: object sql is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.{DataFrame, SparkSession}[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/bruce/Documents/pro/prof/fonctional/lab/spark/batchTU/spark-lab-json/src/main/scala/com/tp/spark/core/Ex0WordcountDF.scala:11:19: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def loadData(): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/bruce/Documents/pro/prof/fonctional/lab/spark/batchTU/spark-lab-json/src/main/scala/com/tp/spark/core/Ex0WordcountDF.scala:19:14: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    val ss = SparkSession.builder()[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

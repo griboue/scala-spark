@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.tp.spark.core.Ex4InvertedIndexSpec, org.scalatest.tools.Framework$$anon$1@27f40dae, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.tp.spark.core.Ex1UserMiningSpec, org.scalatest.tools.Framework$$anon$1@27f40dae, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.tp.spark.core.Ex0WordcountSpec, org.scalatest.tools.Framework$$anon$1@27f40dae, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.tp.spark.core.Ex3HashTagMiningSpec, org.scalatest.tools.Framework$$anon$1@27f40dae, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.tp.spark.core.Ex2TweetMiningSpec, org.scalatest.tools.Framework$$anon$1@27f40dae, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 3 seconds, 750 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 13[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 5, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 12, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 12 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	com.tp.spark.core.Ex2TweetMiningSpec[0m
+[0m[[0m[31merror[0m] [0m[0m	com.tp.spark.core.Ex1UserMiningSpec[0m
+[0m[[0m[31merror[0m] [0m[0m	com.tp.spark.core.Ex3HashTagMiningSpec[0m
+[0m[[0m[31merror[0m] [0m[0m	com.tp.spark.core.Ex4InvertedIndexSpec[0m
+[0m[[0m[31merror[0m] [0m[0m	com.tp.spark.core.Ex0WordcountSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
