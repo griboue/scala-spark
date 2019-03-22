@@ -56,14 +56,16 @@ object Ex2TweetMining {
    *  Count how many times each person is mentioned
    */
   def countMentions(): RDD[(String, Int)] = {
-    ???
+    mentionOnTweet()
+      .map(mention => (mention, 1)).reduceByKey(_ + _)
   }
 
   /**
    *  Find the 10 most mentioned persons by descending order
    */
   def top10mentions(): Array[(String, Int)] = {
-    ???
+    countMentions().sortBy(_._2, ascending = false)
+      .take(10)
   }
 
 }
