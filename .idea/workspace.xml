@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39e2a5d2-1cb1-4c41-bec7-7e067e164e28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/tp/spark/core/Ex2TweetMining.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/tp/spark/core/Ex2TweetMining.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/tp/spark/core/Ex3HashTagMining.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/tp/spark/core/Ex3HashTagMining.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -79,20 +77,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/tp/spark/core/Ex3HashTagMining.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="284">
+              <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/tp/spark/core/Ex4InvertedIndex.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/tp/spark/core/Ex2TweetMining.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="67" column="15" lean-forward="true" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+            <state relative-caret-position="167">
+              <caret line="59" column="47" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -110,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/tp/spark/core/Ex0WordcountDF.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/tp/spark/core/Ex1UserMining.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/tp/spark/core/Ex2TweetMining.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tp/spark/core/Ex3HashTagMining.scala" />
       </list>
     </option>
   </component>
@@ -213,7 +221,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553271951887" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553272973691" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -315,7 +323,7 @@
       <option name="presentableId" value="Default" />
       <updated>1553257528702</updated>
       <workItem from="1553257532770" duration="5025000" />
-      <workItem from="1553267650173" duration="4298000" />
+      <workItem from="1553267650173" duration="5318000" />
     </task>
     <servers />
   </component>
@@ -340,7 +348,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9323000" />
+    <option name="totallyTimeSpent" value="10343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -425,13 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tp/spark/core/Ex3HashTagMining.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/tp/spark/core/Ex1UserMining.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -441,8 +442,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/tp/spark/core/Ex2TweetMining.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="67" column="15" lean-forward="true" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+        <state relative-caret-position="167">
+          <caret line="59" column="47" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tp/spark/core/Ex4InvertedIndex.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tp/spark/core/Ex3HashTagMining.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
         </state>
       </provider>
     </entry>
